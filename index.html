@@ -1,43 +1,57 @@
+<!doctype html>
 <html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Scratch Mirror</title>
+    <link
+      rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+          integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+            crossorigin="anonymous"
+            />
+  </head>
+  <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
 
-<head>
-    <title>Soilzhu's Scratch Mirror</title>
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
-        integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
-        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
-        crossorigin="anonymous"></script>
-    <style>
-        body{
-            font-weight: 300;
-        }
-        @media(max-width: 813px) {
-            body {
-                zoom: 1.0;
-            }
-        }
-    </style>
-</head>
+  <body>
+    <div class="mdui-toolbar mdui-color-theme mdui-shadow-2">
+        <span class="mdui-typo-title">Scratch Mirror</span>
+          <div class="mdui-toolbar-spacer"></div>
+    </div>
+  <div class="mdui-container">
+    <br>
+    <div class="mdui-card" mdui-center mdui-hoverable>
+      <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title"><i class="mdui-icon material-icons">code</i> <b>这是什么？</b></div>
+      </div>
+      <div class="mdui-card-content">这是一个Scratch桌面离线版，方便你无需特殊的网络环境也能下载Scratch桌面离线版。</div>
 
-<body>
-    <div class="mdui-toolbar">
-        <span class="mdui-typo-title mdui-center">Soilzhu Scratch Mirror</span>
     </div>
-    <div class="mdui-center mdui-typo" style="width: 20em">
-        <p class="mdui-typo-display-1" style="display: inline !important;"><i
-                class="mdui-icon material-icons mdui-m-r-1 mdui-typo-display-1">web_asset</i>这是什么?</p><br /><p class="mdui-m-l-5">这是一个由
-        Soilzhu 开发的 Scratch Desktop 镜像，方便在墙内的 Scer 可以下载 Scratch 的离线版。</p>
-    </div>
-    <div class="mdui-center mdui-m-t-4 mdui-typo" style="width: 20em">
-        <p class="mdui-typo-display-1" style="display: inline !important;"><i
-                class="mdui-icon material-icons mdui-m-r-1 mdui-typo-display-1">file_download</i>下载</p><br />
-        <p class="mdui-m-l-5"><a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-pink-accent" href="http://wbmirror.luogu.ml/desktop/Scratch%20Setup.exe">Scratch Desktop For Windows</a>
-        </br>
-    </br>
-        <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="http://wbmirror.luogu.ml/desktop/Scratch.dmg">Scratch Desktop For MacOS</a></p>
-    </div>
-</body>
+    <br>
+      <div class="mdui-card" mdui-center mdui-hoverable>
+          <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title"><i class="mdui-icon material-icons">file_download</i> <b>下载</b></div>
+          </div>
 
+          <div class="mdui-card-actions">
+            <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="http://wbmirror.luogu.ml/desktop/Scratch%20Setup.exe">Windows</a>
+            <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="http://wbmirror.luogu.ml/desktop/Scratch.dmg">Mac</a>
+          </div>
+        </div>
+
+    <br>
+      <div class="mdui-card" mdui-center mdui-hoverable>
+          <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title"><i class="mdui-icon material-icons">ev_station</i> <b>支持</b></div>
+
+            <div class="mdui-card-content">在GitHub上支持这个项目</div>
+
+          </div>
+
+          <div class="mdui-card-actions">
+            <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="https://github.com/soilland/mirror-scratch">Github</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  </body>
 </html>
