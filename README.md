@@ -1,3 +1,3 @@
 # mirror-scratch
 
-### [Scratch Desktop Mirror](https://mirror.soilland.cf)
+### [Scratch Desktop Mirror](https://scratch.cf)
